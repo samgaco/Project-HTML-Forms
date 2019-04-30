@@ -4,6 +4,18 @@ body{
     background: #ECEEF1;
 
 }
+.icon.one{
+    color:rgb(0, 128, 85);
+    font-size: 30px;
+}
+.icon.two{
+    color:rgb(6, 216, 16);
+    font-size: 30px;
+}
+.icon.three{
+    color:rgba(219, 68, 68, 0.952);
+    font-size: 30px;
+}
 
 
 .container{
