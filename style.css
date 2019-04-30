@@ -1,5 +1,12 @@
 
-    .container{
+body{
+
+    background: #ECEEF1;
+
+}
+
+
+.container{
         display:flex;
         flex-direction: column;
         width:30%;
@@ -10,8 +17,60 @@
         right: 0;
         margin: auto;
         border:1px solid silver ;
+        background: white;
     padding: 2%}
-        
+
+.submit-form{
+
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+    box-shadow: 1 2px 4px 0 rgba(59, 59, 59, 0.2), 1 1px 5px 0 rgba(0,0,0,0.19);
+
+
+}
+
+
+.sign-in{
+
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+    box-shadow: 1 2px 4px 0 rgba(59, 59, 59, 0.2), 1 1px 5px 0 rgba(0,0,0,0.19);
+
+
+}
+
+.title-form{
+    color: rgb(58, 58, 58);
+}
+
+.sign-in-let{
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+
+}
+
+.letters-down{
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+}
 
 .form{
     padding: 2%;
