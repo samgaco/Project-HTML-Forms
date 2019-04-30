@@ -4,33 +4,62 @@ body{
     background: #ECEEF1;
 
 }
+.intuit-title{
+
+    clear: both;
+    position: relative;
+    top:10%;
+    bottom: 0;
+    left: 45%;
+    right: 0;
+    margin: auto;
+    color: gray;
+    font-family: fantasy;
+    
+}
+.icon-nav{
+    clear: both;
+    position: relative;
+    top:10%;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    margin: auto;
+}
+
 .icon.one{
     color:rgb(0, 128, 85);
-    font-size: 30px;
+    font-size: 27px;
+
 }
 .icon.two{
     color:rgb(6, 216, 16);
-    font-size: 30px;
+    font-size: 27px;
+
 }
 .icon.three{
     color:rgba(219, 68, 68, 0.952);
-    font-size: 30px;
+    font-size: 27px;
+
 }
 
 
 .container{
+
         display:flex;
         flex-direction: column;
         width:30%;
-        position: absolute;
-        top:30%;
+        position: relative;
+        top:18%;
         bottom: 0;
         left: 0;
         right: 0;
         margin: auto;
         border:1px solid silver ;
         background: white;
-    padding: 2%}
+        padding: 2%
+    
+    }
 
 .submit-form{
 
@@ -46,13 +75,13 @@ body{
     cursor: pointer;
     border-radius: 2%;
     box-shadow: 1 2px 4px 0 rgba(59, 59, 59, 0.2), 1 1px 5px 0 rgba(0,0,0,0.19);
-
+    
 
 }
 
 
 .sign-in{
-
+    float: right;
     background-color: #008CBA;
     border: none;
     color: white;
@@ -71,17 +100,53 @@ body{
 
 .title-form{
     color: rgb(58, 58, 58);
+    text-align: center;
 }
 
+.subtitle-form{
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
 .sign-in-let{
+    float:right;
     font-size: 12px;
+    color: rgb(58, 58, 58);
+
+}
+
+.nav-down{
+    font-size: 15px;
+    text-align: center;
     color: rgb(58, 58, 58);
 
 }
 
 .letters-down{
+    
     font-size: 12px;
     color: rgb(58, 58, 58);
+    position: relative;
+    top:18%;
+    bottom: 0;
+    left: 0px;
+    right: 50;
+    margin: auto;
+    text-align: center;
+    
+
+
+}
+
+.letters-down-form{
+    text-align: center;
+
+}
+
+.letters-down-form-bk{
+    text-align: center;
+    font-size: 10px;
+    background: silver;
 }
 
 .form{
