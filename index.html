@@ -1,69 +1,62 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
-
-<title>Intuit Accounts - Sign Up</title>
-
-<link rel="stylesheet" type = "text/css"  href="style.css" >
-
-
+    <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" type = "text/css"  href="style.css" >
 </head>
-
 
 <body>
 
-<header>
-     Already have an Intuit account?
-     <br>
-     I forgot my User ID or Password
-     <button class = "sign-in" type="submit" value="sign-in">Sign In</button>
-    </header>
+    <h2>
+        Already have an Intuit account?
+        <br>
+        I forgot my User ID or Password
+        <button class = "sign-in" type="submit" value="sign-in">Sign In</button>
+    </h2>
 
+   
+        <form class='form'>
+            <div class='container'>
+            
+               
+                <label name='user-label' for="username"> Email address </label>
+                <input type="text" id="username" name="Email address">
+                <br>
 
-<form>
+                <label name='user-Phone' for="Phone"> Phone (recommended)
+                    
+                
+                </label>
+                <input type="tel" id="Phone" name="Phone (recommended)">
+                <p> Standard call, messaging or data rates may apply.</p>
+                <br>
+                <label name='user-psw'for="password"> Password
+                </label>
+                <input type="password" id="password" name="Password">
+                <br>
+                
+                <button class = "submit-form" type="submit" value="Submit">Create Account</button>
+                
+                <br>
+                <p> By clicking Create Account, 
+                    you agree to our Terms of Service and have read and acknowledge our Privacy Statement.</p>
 
-    <label for="username"> Email address
-<input type="text" id="username" name="Email address">
-    </label>
-    <br>
+                <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+                
+               
+           
+         </div>
+    </form>
+        
+    <nav>
 
-    <label for="Phone"> Phone (recommended)
-<input type="tel" id="Phone" name="Phone (recommended)">
-<p> Standard call, messaging or data rates may apply.</p>
-    </label>
-    <br>
+        <a>Legal</a>
+        <a>Privacy</a>
+        <a>Security</a> 
+    </nav>
 
-    <label for="password"> Password
-        <input type="password" id="password" name="Password">
-
-    </label>
-    <br>
-    <label for="button">
-        <button class = "submit-form" type="submit" value="Submit">Create Account</button>
-    </label>
-    <br>
-    <p> By clicking Create Account, you agree to our
-            Terms of Service and have read and acknowledge our Privacy Statement.</p>
-
-    <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-        </p>
-
-    
-
-</form>
-<nav>
-
-    <a>Legal</a>
-    <a>Privacy</a>
-   <a>Security</a> 
-</nav>
-
-<p> 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+    <p> 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
         Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 
 </body>
-
-
 </html>
