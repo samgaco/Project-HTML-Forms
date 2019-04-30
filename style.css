@@ -55,7 +55,10 @@ body{
         left: 0;
         right: 0;
         margin: auto;
-        border:1px solid silver ;
+        
+        border-top:1px solid silver ;
+        border-right:1px solid silver ;
+        border-left:1px solid silver ;
         background: white;
         padding: 2%
     
@@ -144,11 +147,39 @@ body{
 }
 
 .letters-down-form-bk{
-    text-align: center;
+    
     font-size: 10px;
-    background: silver;
+    background: rgb(223, 219, 219);
+    width:30%;
+    height: 30px;
+    position: relative;
+    top:18%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding:0% 2% 0% 2%;
+    border-bottom : 1px solid silver;
+    border-left : 1px solid silver;
+    border-right : 1px solid silver;
+    
 }
 
 .form{
     padding: 2%;
 }
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  a{text-decoration: none;}
+
+  .subtext-input{
+      font-size: 14px;
+      margin: 0% 0% 0% 0%;
+  }
