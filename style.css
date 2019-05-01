@@ -48,7 +48,7 @@ body{
 
         display:flex;
         flex-direction: column;
-        width:30%;
+        width:27%;
         position: relative;
         top:18%;
         bottom: 0;
@@ -151,7 +151,7 @@ body{
     font-size: 10px;
     background: #ECEEF1;
     color: rgb(165, 165, 165);
-    width:30%;
+    width:27%;
     height: 50px;
     position: relative;
     top:60%;
