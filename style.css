@@ -1,0 +1,187 @@
+
+body{
+
+    background: #ECEEF1;
+
+}
+.intuit-title{
+
+    clear: both;
+    position: relative;
+    top:10%;
+    bottom: 0;
+    left: 45%;
+    right: 0;
+    margin: auto;
+    color: gray;
+    font-family: fantasy;
+    
+}
+.icon-nav{
+    clear: both;
+    position: relative;
+    top:10%;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    margin: auto;
+}
+
+.icon.one{
+    color:rgb(0, 128, 85);
+    font-size: 27px;
+
+}
+.icon.two{
+    color:rgb(6, 216, 16);
+    font-size: 27px;
+
+}
+.icon.three{
+    color:rgba(219, 68, 68, 0.952);
+    font-size: 27px;
+
+}
+
+
+.container{
+
+        display:flex;
+        flex-direction: column;
+        width:27%;
+        position: relative;
+        top:18%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        
+        border-top:1px solid silver ;
+        border-right:1px solid silver ;
+        border-left:1px solid silver ;
+        background: white;
+        padding: 2%
+    
+    }
+
+.submit-form{
+
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+    box-shadow: 1 2px 4px 0 rgba(59, 59, 59, 0.2), 1 1px 5px 0 rgba(0,0,0,0.19);
+    
+
+}
+
+
+.sign-in{
+    float: right;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+    box-shadow: 1 2px 4px 0 rgba(59, 59, 59, 0.2), 1 1px 5px 0 rgba(0,0,0,0.19);
+
+
+}
+
+.title-form{
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+.subtitle-form{
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+.sign-in-let{
+    float:right;
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+
+}
+
+.nav-down{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+
+}
+
+.letters-down{
+    
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+    position: relative;
+    top:18%;
+    bottom: 0;
+    left: 0px;
+    right: 50;
+    margin: auto;
+    text-align: center;
+    
+
+
+}
+
+.letters-down-form{
+    text-align: center;
+
+}
+
+.letters-down-form-bk{
+    
+    font-size: 10px;
+    background: #ECEEF1;
+    color: rgb(165, 165, 165);
+    width:27%;
+    height: 50px;
+    position: relative;
+    top:60%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding:2% 2% 0% 2%;
+    border-bottom : 1px solid silver;
+    border-left : 1px solid silver;
+    border-right : 1px solid silver;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.form{
+    padding: 2%;
+}
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  a{text-decoration: none;}
+
+  .subtext-input{
+      font-size: 14px;
+      margin: 0% 0% 0% 0%;
+  }
