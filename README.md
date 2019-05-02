@@ -1,2 +1,14 @@
 # Project-HTML-Forms
-This is work for the Project-HTML-Forms with the Microverse full time program.
+
+#Authors:
+
+#Othmane Naamani 
+#github: @othman-19
+
+#Samuel García 
+#github: @samgaco
+
+
+## Clone of a sign up page
+https://mint.intuit.com/login.event?task=S
+
